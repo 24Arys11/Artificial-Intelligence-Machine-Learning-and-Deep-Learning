@@ -1,3 +1,19 @@
+# Cerinta:
+
+**Atentie! acest exercitiu necesita prezentare!**
+- Se va implementa urmatorul joc:
+- Jocul se desfasoara pe un grid NxN cu 5≤N≤10 (utilizatorul va fi întrebat în legătură cu dimensiunea tablei).
+- Este turn based
+- Un jucator foloseste simbolul x si celalalt 0 ( o sa ii numim pe scurt jucatorii x si 0)
+- Jucatorul x pune simbolul primul pe tabla.
+- Mutarile sunt de doua feluri:
+  - punerea unui simbol intr-un loc gol    x-si-0-capturare-diagonala(capturari posibile)
+  - saltul peste un simbol (in stilul jocului dame). Un jucator poate sari peste simbolul unui alt jucator doar pe diagonala, daca pe acea diagonala, imediat dupa simbolul jucatorului e un loc liber. Totusi, la urmatoarea mutare jucatorul opus nu are voie sa puna simbolul in locul de unde a fost luat. De exemplu, pentru x-ul marcat cu verde din imaginea de mai jos sunt marcate cu o culoare gălbuie locurile posibile în care poate face salt pentru a captura un 0: <br> <img src="http://www.irinaciocan.ro/inteligenta_artificiala/imagini/exercitii/ex-jocuri-exemple-modificate/x-si-0-capturare-diagonala(capturari%20posibile).png" alt="x-si-0-capturare-diagonala(capturari posibile)" width="200"/>
+  - Scopul jocului este sa se creeze o configuratie de 4 simboluri vecine toate intre ele doua cate doua (practic formand un "patrat" de simboluri). De exemplu: <br> <img src="http://www.irinaciocan.ro/inteligenta_artificiala/imagini/exercitii/ex-jocuri-exemple-modificate/x-si-0-capturare-diagonala(configuratie%20castigatoare).png" alt="x-si-0-capturare-diagonala(configuratie castigatoare)" width="200"/>
+  - La afișarea gridului în consolă, se vor afișa în dreptul liniilor și coloanelor și numerele lor (indicii începând de la 0) ca să poată identifica utilizatorul mai ușor coordonatele locului în care vrea să mute.
+
+------------
+
 # Barem
 
 Rezolvati problema urmatoare folosind algoritmii:
@@ -46,19 +62,3 @@ Toate cerintele se rezolva **intr-un singur fisier python**.
 **Tema nu se puncteaza fara prezentare**. Se va da o nota pe prezentare de la 1 la 10 in functie de cat de bine a stiut studentul sa explice ce a facut. Punctajul temei se va inmulti cu nota_prezentare/10. Astfel, daca cineva stie sa explice doar jumatate din ce a facut, primeste jumatate din punctaj; daca nu stie nimic primeste 0.
 
 **Temele copiate duc la anularea notei atat pentru cel care a dat tema cat si pentru cel care a copiat, iar numele studentilor cu aceasta problema vor fi comunicate profesorului titular de curs.**
-
-------------
-
-# Cerinta:
-
-**Atentie! acest exercitiu necesita prezentare!**
-- Se va implementa urmatorul joc:
-- Jocul se desfasoara pe un grid NxN cu 5≤N≤10 (utilizatorul va fi întrebat în legătură cu dimensiunea tablei).
-- Este turn based
-- Un jucator foloseste simbolul x si celalalt 0 ( o sa ii numim pe scurt jucatorii x si 0)
-- Jucatorul x pune simbolul primul pe tabla.
-- Mutarile sunt de doua feluri:
-  - punerea unui simbol intr-un loc gol    x-si-0-capturare-diagonala(capturari posibile)
-  - saltul peste un simbol (in stilul jocului dame). Un jucator poate sari peste simbolul unui alt jucator doar pe diagonala, daca pe acea diagonala, imediat dupa simbolul jucatorului e un loc liber. Totusi, la urmatoarea mutare jucatorul opus nu are voie sa puna simbolul in locul de unde a fost luat. De exemplu, pentru x-ul marcat cu verde din imaginea de mai jos sunt marcate cu o culoare gălbuie locurile posibile în care poate face salt pentru a captura un 0: <br> <img src="http://www.irinaciocan.ro/inteligenta_artificiala/imagini/exercitii/ex-jocuri-exemple-modificate/x-si-0-capturare-diagonala(capturari%20posibile).png" alt="x-si-0-capturare-diagonala(capturari posibile)" width="200"/>
-  - Scopul jocului este sa se creeze o configuratie de 4 simboluri vecine toate intre ele doua cate doua (practic formand un "patrat" de simboluri). De exemplu: <br> <img src="http://www.irinaciocan.ro/inteligenta_artificiala/imagini/exercitii/ex-jocuri-exemple-modificate/x-si-0-capturare-diagonala(configuratie%20castigatoare).png" alt="x-si-0-capturare-diagonala(configuratie castigatoare)" width="200"/>
-  - La afișarea gridului în consolă, se vor afișa în dreptul liniilor și coloanelor și numerele lor (indicii începând de la 0) ca să poată identifica utilizatorul mai ușor coordonatele locului în care vrea să mute.

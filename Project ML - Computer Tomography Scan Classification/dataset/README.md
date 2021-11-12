@@ -4,6 +4,7 @@ Folders: | Nr. of images
 --- | --- 
 Test images: | 3.900 
 Train images: | 15.000 
+Train images: | 15.000 
 
 
            |   

@@ -1,5 +1,4 @@
-# Kaggle competition:
-## * Classify Computer Tomography Scans of blood vessels of the lungs in three main categories: native, arterial and venous.
+# Kaggle competition: Classify Computer Tomography Scans of blood vessels of the lungs in three main categories: native, arterial and venous.
 
 ------
 

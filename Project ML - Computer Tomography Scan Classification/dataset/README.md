@@ -1,5 +1,11 @@
 # The dataset:
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
 Folders:           | Nr. of images  
       ---          |   ---  
 Test images:       | 3.900  

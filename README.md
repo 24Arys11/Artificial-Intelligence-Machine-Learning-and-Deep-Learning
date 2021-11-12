@@ -1,6 +1,6 @@
 # Artificial-Intelligence-Machine-Learning-and-Deep-Learning
 
-Here I will be uploading Artificial Intelligence, Machine Learning and Deep Learning projects.
+Here I will be uploading Artificial Intelligence, Machine Learning and Deep Learning related projects.
 
 ## Further clarifications:
 

@@ -2,28 +2,28 @@
 
 Rezolvati problema urmatoare folosind algoritmii:
 
- * min-max
- * alpha-beta
+ - min-max
+ - alpha-beta
 
 Toate cerintele se rezolva **intr-un singur fisier python**.
 
 ### Linkuri utile
 
-* https://repl.it/@IrinaCiocan/xsi0exemplu#main.py
-* https://repl.it/@IrinaCiocan/x-si-0-interf-grafica#main.py
-* https://replit.com/@IrinaCiocan/4inline-interfatagrafica (aici aveti exemplul cu butoanele de la inceput, cum trebuie sa faceti voi in tema)
-* https://replit.com/@IrinaCiocan/interfata-joc-celule-ziduri
-* https://replit.com/@IrinaCiocan/interfata-joc-graf
-* Hint: pentru calcularea statisticilor legate de numarul de noduri si de timpi, veti face cate un vector pentru fiecare tip de date (un vector cu toti timpii, un vector cu toate numerele de noduri) Pentru calcularea medianei puteti folosi: https://docs.python.org/3/library/statistics.html#statistics.median
+- https://repl.it/@IrinaCiocan/xsi0exemplu#main.py
+- https://repl.it/@IrinaCiocan/x-si-0-interf-grafica#main.py
+- https://replit.com/@IrinaCiocan/4inline-interfatagrafica (aici aveti exemplul cu butoanele de la inceput, cum trebuie sa faceti voi in tema)
+- https://replit.com/@IrinaCiocan/interfata-joc-celule-ziduri
+- https://replit.com/@IrinaCiocan/interfata-joc-graf
+- Hint: pentru calcularea statisticilor legate de numarul de noduri si de timpi, veti face cate un vector pentru fiecare tip de date (un vector cu toti timpii, un vector cu toate numerele de noduri) Pentru calcularea medianei puteti folosi: https://docs.python.org/3/library/statistics.html#statistics.median
 
 ### **Mod de punctare** (punctajul e dat in procentaje din punctajul maxim al temei; procentajul maxim este 100%):
 
 1. (5%) Să se păstreze următoare lucruri deja implementate în exemplu (sau să se implementeze daca cineva decide să refacă programul de la zero):
-  * La inceputul programului utilizatorul va fi intrebat ce algoritm doreste sa foloseasca (minimax sau alpha-beta)
-  * Utilizatorul va fi întrebat cu ce simbol sa joace (la jocurile unde are sens aceasta intrebare)
-  * Se va încerca evitarea sau tratarea situației în care utilizatorul ar putea răspunde greșit (de exemplu, nu poate selecta decât opțiunile corecte dintre care sunt selectate valorile default; sau, unde nu se poate așa ceva, jocul nu pornește până nu se primește un răspuns corect).
-  * Afisarea a cui este rândul să mute.
-  * Indicarea, la finalul jocului, a câstigatorului sau a remizei daca este cazul.
+  - La inceputul programului utilizatorul va fi intrebat ce algoritm doreste sa foloseasca (minimax sau alpha-beta)
+  - Utilizatorul va fi întrebat cu ce simbol sa joace (la jocurile unde are sens aceasta intrebare)
+  - Se va încerca evitarea sau tratarea situației în care utilizatorul ar putea răspunde greșit (de exemplu, nu poate selecta decât opțiunile corecte dintre care sunt selectate valorile default; sau, unde nu se poate așa ceva, jocul nu pornește până nu se primește un răspuns corect).
+  - Afisarea a cui este rândul să mute.
+  - Indicarea, la finalul jocului, a câstigatorului sau a remizei daca este cazul.
 2. (5%) Utilizatorul va fi întrebat care sa fie nivelul de dificultate a jocului (incepator, mediu, avansat). In functie de nivelul ales se va seta adancimea arborelui de mutari (cu cat nivelul ales e mai mare, cu atat adancimea trebuie sa fie mai mare ca sa fie mai precisa predictia jocului). Posibilitatea utilizatorului de a face eventuale alte setări cerute de enunț. Se va verifica dacă utilizatorul a oferit un input corect, iar dacă nu se va trata acest caz (i se poate reafișa ecranul cu setările afișând și un mesaj de atenționare cu privire la inputul greșit).
 3. (5%) Generarea starii initiale
 4. (10%) Desenarea tablei de joc (interfața grafică) si afișarea în consolă a tablei (pentru debug; în ce format vreți voi). Titlul ferestrei de joc va fi numele vostru + numele jocului.
@@ -40,9 +40,9 @@ Toate cerintele se rezolva **intr-un singur fisier python**.
 11. (5%) Comentarii. Explicarea algoritmului de generare a mutarilor, explicarea estimarii scorului si dovedirea faptului ca ordoneaza starile cu adevarat in functie de cat de prielnice ii sunt lui MAX (nu trebuie demonstratie matematica, doar explicat clar). Explicarea pe scurt a fiecarei functii si a parametrilor.
 12. **Bonus (10%)**. Ordonarea succesorilor înainte de expandare (bazat pe estimare) astfel încât alpha-beta să taie cât mai mult din arbore.
 13. **Bonus (20%)**. Opțiuni în meniu (cu butoane adăugate) cu:
-  * Jucator vs jucător
-  * Jucător vs calculator (selectată default)
-  * Calculator (cu prima funcție de estimare) vs calculator (cu a doua funcție de estimare)
+  - Jucator vs jucător
+  - Jucător vs calculator (selectată default)
+  - Calculator (cu prima funcție de estimare) vs calculator (cu a doua funcție de estimare)
 **Tema nu se puncteaza fara prezentare**. Se va da o nota pe prezentare de la 1 la 10 in functie de cat de bine a stiut studentul sa explice ce a facut. Punctajul temei se va inmulti cu nota_prezentare/10. Astfel, daca cineva stie sa explice doar jumatate din ce a facut, primeste jumatate din punctaj; daca nu stie nimic primeste 0.
 
 **Temele copiate duc la anularea notei atat pentru cel care a dat tema cat si pentru cel care a copiat, iar numele studentilor cu aceasta problema vor fi comunicate profesorului titular de curs.**
@@ -58,3 +58,5 @@ Toate cerintele se rezolva **intr-un singur fisier python**.
 - Un jucator foloseste simbolul x si celalalt 0 ( o sa ii numim pe scurt jucatorii x si 0)
 - Jucatorul x pune simbolul primul pe tabla.
 - Mutarile sunt de doua feluri:
+  - punerea unui simbol intr-un loc gol
+  - saltul peste un simbol (in stilul jocului dame). Un jucator poate sari peste simbolul unui alt jucator doar pe diagonala, daca pe acea diagonala, imediat dupa simbolul jucatorului e un loc liber. Totusi, la urmatoarea mutare jucatorul opus nu are voie sa puna simbolul in locul de unde a fost luat. De exemplu, pentru x-ul marcat cu verde din imaginea de mai jos sunt marcate cu o culoare gălbuie locurile posibile în care poate face salt pentru a captura un 0:

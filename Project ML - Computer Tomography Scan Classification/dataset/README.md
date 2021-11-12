@@ -1,7 +1,7 @@
 # The dataset:
 
-| Test images:       | 3.900   | 
-| Train images:      | 15.000  | 
+| Test images:       | 3.900   |  
+| Train images:      | 15.000  |  
 | Validation images: | 4.500   |
 
 Text files:

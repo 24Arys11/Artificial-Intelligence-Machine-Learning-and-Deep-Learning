@@ -1,4 +1,4 @@
-# Artificial-Intelligence-Machine-Learning-and-Deep-Learning
+# Artificial Intelligence, Machine Learning and Deep Learning
 
 Here I will be uploading Artificial Intelligence, Machine Learning and Deep Learning related projects.
 

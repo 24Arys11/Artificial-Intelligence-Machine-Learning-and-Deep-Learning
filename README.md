@@ -10,7 +10,7 @@ This cathegory will include projects based on algorithms such as: A*, Min-Max an
 
 ### Machine Learning
 
-This cathegory will include projects based on algorithms such as: Linear Regression, Naive-Bayes, K-Nearest Neighbors (KNN), Random Forests and even Neural Networks.
+This cathegory will include projects based on algorithms such as: Linear Regression, Naive-Bayes, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Random Forests and even Neural Networks.
 
 ### Deep Learning
 

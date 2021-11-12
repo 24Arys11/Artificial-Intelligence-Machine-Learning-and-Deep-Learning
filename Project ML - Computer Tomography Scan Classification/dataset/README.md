@@ -1,9 +1,9 @@
 # The dataset:
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Markdown | Less 
+--- | --- 
+*Still* | `renders` 
+1 | 2 
 
 
 Folders:           | Nr. of images  

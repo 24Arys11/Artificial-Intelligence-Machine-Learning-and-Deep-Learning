@@ -47,6 +47,14 @@ Toate cerintele se rezolva **intr-un singur fisier python**.
 
 **Temele copiate duc la anularea notei atat pentru cel care a dat tema cat si pentru cel care a copiat, iar numele studentilor cu aceasta problema vor fi comunicate profesorului titular de curs.**
 
+------------
+
 # Cerinta:
 
-
+**Atentie! acest exercitiu necesita prezentare!**
+- Se va implementa urmatorul joc:
+- Jocul se desfasoara pe un grid NxN cu 5≤N≤10 (utilizatorul va fi întrebat în legătură cu dimensiunea tablei).
+- Este turn based
+- Un jucator foloseste simbolul x si celalalt 0 ( o sa ii numim pe scurt jucatorii x si 0)
+- Jucatorul x pune simbolul primul pe tabla.
+- Mutarile sunt de doua feluri:

@@ -14,4 +14,4 @@ This cathegory will include projects based on algorithms such as: Linear Regress
 
 ### Deep Learning
 
-This cathegory will include projects based on Neural Networks such as: Image recognition, Speach recognition (such as Hate Speach classification), Generative Adversarial Networks (GANs)..
+This cathegory will include projects based on Neural Networks such as: Image recognition, Speach recognition (such as Hate Speach classification), Generative Adversarial Networks (GANs)...
